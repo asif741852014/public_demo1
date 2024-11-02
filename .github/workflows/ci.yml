@@ -1,0 +1,11 @@
+name: Pull Request Workflow
+
+on:
+  public
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - run: echo "hi from public"
